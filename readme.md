@@ -1,5 +1,5 @@
 # towords
-[![Build Status](https://travis-ci.com/abakermi/towords.svg?branch=master)](https://travis-ci.com/abakermi/towords) [![npm version](https://badge.fury.io/js/towords.svg)](https://badge.fury.io/js/towords)
+[![Build Status](https://travis-ci.com/abakermi/towords.svg?branch=master)](https://travis-ci.com/abakermi/towords) [![npm version](https://badge.fury.io/js/%40abakermi%2Ftowords.svg)](https://badge.fury.io/js/%40abakermi%2Ftowords)
 
 
 convert node stream to words
