@@ -1,6 +1,6 @@
 {
 	"name": "@abakermi/towords",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "node stream to words",
 	"license": "MIT",
 	"repository": "abakermi/towords",
@@ -11,7 +11,7 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	  },
+	},
 	"engines": {
 		"node": ">=8"
 	},
