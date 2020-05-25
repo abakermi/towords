@@ -1,0 +1,40 @@
+{
+	"name": "@abakermi/towords",
+	"version": "0.0.0",
+	"description": "node stream to words",
+	"license": "MIT",
+	"repository": "abakermi/towords",
+	"author": {
+		"name": "Abdelhak Akermi",
+		"email": "abdelhak.akermi@gmail.com",
+		"url": "https://abdelhakakermi.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"stream",
+		"transform",
+		"words",
+		"split"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^2.1.0",
+		"codecov": "^3.5.0",
+		"nyc": "^14.1.1",
+		"xo": "^0.24.0"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}
+}
