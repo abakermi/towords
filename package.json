@@ -9,6 +9,9 @@
 		"email": "abdelhak.akermi@gmail.com",
 		"url": "https://abdelhakakermi.com"
 	},
+	"publishConfig": {
+		"access": "public"
+	  },
 	"engines": {
 		"node": ">=8"
 	},
