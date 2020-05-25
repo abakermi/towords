@@ -6,11 +6,11 @@ const wordStream = require('./index');
 test('should pipe into words', async t => {
 
 	const input = fs.createReadStream('./fixture/in.txt');
-    const wordStream = new wordStream(input); // convinience API
+    const ws = new wordStream();
     const output = fs.createWriteStream('test.txt');
-	input.pipe(wordStream).pipe(output);
+	input.pipe(ws).pipe(output);
 	const x=new Promise((resolve, reject) => {
-		wordStream.on('end',()=>{
+		ws.on('end',()=>{
 			resolve(true)
 		})
 		output.on('error',(err)=>reject(err))
